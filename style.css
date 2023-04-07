@@ -39,8 +39,7 @@ header, .hero {
 }
 
 .hero-divs {
-    margin-top: 2%;
-    margin-bottom: 6%;
+    margin: 50px auto 100px;
     display: flex;
 }
 
@@ -64,7 +63,7 @@ header, .hero {
     border: none;
     background-color: #3b82f6;
     border-radius: 7px;
-    padding: 7px 25px;
+    padding: 5px 23px;
     color: white;
 }
 
@@ -74,6 +73,7 @@ header, .hero {
 
 .main-header {
     margin: 40px;
+    font-weight: 800;
 }
 
 .information-divs {
@@ -121,4 +121,46 @@ header, .hero {
 
 .quote-author-div {
     text-align: right;
+}
+
+.sign-up-section {
+    padding: 75px;
+}
+
+.sign-up-box {
+    margin: 0 auto;
+    padding: 30px 70px;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    width: 800px;
+    display: flex;
+}
+
+.call-bold {
+    font-weight: bold;
+}
+
+.call-text {
+    color: white;
+    margin: 5px;
+    text-align: left;
+}
+
+.reversed-button {
+    flex: 1;
+    border: 2px solid white;
+}
+
+.sign-up-text-section {
+    width: 500px;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
 }
